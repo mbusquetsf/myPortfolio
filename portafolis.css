@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&family=Fascinate+Inline&family=Federo&family=Lavishly+Yours&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-image: url(imatges/fondodalt.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 450px;
+}
+
+.idiomes {
+    display: flex;
+    justify-content: flex-end;
+    /* align-items: flex-start; */
+    gap: px;
+    width: 100%;
+    height: 80px;
+    margin-top: 50px;
+    margin-right: 75px;
+   
+}
+
+#castella {
+    /* background-image: url(imatges/pinespaña-removebg-preview\ \(1\).png); */
+    background-repeat: no-repeat;
+    width: 55px;
+    height: 50px;
+    margin-top: 8px;
+}
+
+#angles {
+
+    width: 60px;
+    height: 60px;
+    padding-right: 70px;
+    padding-bottom: 40px;
+   
+}
+
+header {
+    margin-top: 100px;
+}
+
+#capçalera {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    margin-left: 25px;
+
+}
+
+#avatar {
+    border-radius: 50%;
+    width: 300px;
+    display: flex;
+    margin-right: 50px;
+
+}
+
+h1 {
+    font-size: 70px;
+    padding-left: 90px;
+    color: rgb(143, 59, 216);
+    font-family: "Delius Swash Caps", cursive;
+}
+
+h2 {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    font-family: "Delius Swash Caps", cursive;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+.nom {
+    display: flex;
+    justify-content: flex-start;
+    animation: nom 10s 1;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    opacity: 0;
+    font-family: "Delius Swash Caps", cursive;
+    font-size: 70px;
+    padding-left: 90px;
+    margin-top: 150px;
+
+
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 180px;  
+    font-family: "Delius Swash Caps", cursive;
+
+
+}
+
+#portafoli {
+    animation: portafoli 5s 1;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+
+}
+
+#altres {
+    animation: altres 5s 1;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+#contacte {
+    animation: contacte 5s 1;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+a:hover {
+    scale: 150%;
+    color: rgb(203, 164, 236);
+}
+
+
+/*fins aquí és nav*/
+
+.continent {
+    /* background-color: rgba(239, 244, 248, 0.692); */
+    margin-right: 350px;
+    margin-left: 150px;
+    margin: 50px;
+    margin-top: 150px;
+    text-align: center;
+}
+
+p,
+figcaption,
+.text, .CV {
+    font-family: "Delius Swash Caps", cursive;
+    font-size: 25px;
+}
+
+/*keyframes header i nav*/
+@keyframes nom {
+    0% {
+
+        transform: scale(1%);
+        opacity: 0;
+        color: rgb(203, 164, 236);
+    }
+
+    50% {
+        opacity: 1;
+        color: rgb(143, 59, 216);
+    }
+
+    100% {
+
+        transform: scale(150%);
+        opacity: 1;
+        color: rgb(143, 59, 216);
+        margin-left: 300px;
+    }
+}
+
+@keyframes portafoli {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+
+    }
+
+    50% {
+        transform: translateX(15%);
+    }
+
+    100% {
+        transform: translateX(25%);
+        opacity: 1;
+    }
+}
+
+@keyframes altres {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+
+    50% {
+        transform: translateX(15%);
+    }
+
+    100% {
+        transform: translateX(25%);
+        opacity: 1;
+    }
+}
+
+
+@keyframes contacte {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+
+    50% {
+        transform: translateX(15%);
+    }
+
+    100% {
+        transform: translateX(25%);
+        opacity: 1;
+    }
+}
+
+
+.CV{
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height:100px;
+    border: rgb(143, 59, 216);
+    border-radius: 50%;
+    margin-left: 850px;
+}
+
+/*keyframes header i nav*/
+
+
+/*PÀGINA PORTAFOLIS*/
+
+article {
+    margin-top: 75px;
+    margin-bottom: 100px;
+}
+
+
+.galeria {
+
+    margin-top: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 170px;
+}
+
+/*contacte*/
+
+section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 160px;
+    gap: 60px;
+}
+
+.icones {
+    width: 250px;
+    height: 250px;
+}
+
+.toteslescards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 150px;
+}
+
+.card-container {
+    perspective: 1000px;
+    width: 350px;
+    height: 500px;
+}
+
+.card {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.8s;
+}
+
+.card-container:hover .card {
+    transform: rotateY(180deg);
+}
+
+.card-front,
+.card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(143, 59, 216);
+
+}
+
+
+
+.texttargeta {
+    font-size: x-large;
+    color: rgb(143, 59, 216);
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+
+}
+
+.card-back {
+    transform: rotateY(180deg);
+}
+
+.card-back img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media (min-width: 430px) and (min-height:932px){
+    
+}

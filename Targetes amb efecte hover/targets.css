@@ -1,0 +1,160 @@
+.body{
+    background-color: rgb(139, 132, 143);
+}
+
+
+
+a{
+    text-decoration: none;
+}
+.opcions{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.opcio{
+    background-color: rgb(50, 176, 214);
+    
+}
+.opcio:hover{
+    background-color: #ec8cb4;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    scale: 150%;
+}
+.container{
+    display: flex; flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 75px;
+}
+.targeta{
+    
+    width: 210px;
+    height: 360px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px  
+    
+
+  
+}
+
+
+
+#targetaboa{
+    background-color: rgb(148, 11, 11);
+ 
+}
+
+#targetaboa:hover{
+rotate: 15deg;
+transition: 3s;
+scale: 120%;
+filter:brightness(1.5) drop-shadow(0 0 20px rgb(148, 11, 11) )
+}
+
+#targetaperona{
+    background-color: #ec8cb4;
+}
+
+#targetaperona:hover{
+    rotate: -15deg;
+    transition: 3s;
+    scale: 120%;
+    filter:brightness(1.5) drop-shadow(0 0 20px #ec8cb4)
+    }
+    
+
+#targetarobin{
+    background-color: blueviolet;
+}
+#targetarobin:hover{
+    rotate: 15deg;
+    transition: 3s;
+    scale: 120%;
+    filter:brightness(1.5) drop-shadow(0 0 20px blueviolet)
+    }
+    
+
+#targetanami{
+    background: rgb(238, 158, 10);
+}
+
+#targetanami:hover{
+    rotate: -15deg;
+    transition: 3s;
+    scale: 120%;
+    filter:brightness(1.5) drop-shadow(0 0 20px rgb(238, 158, 10) )
+    }
+#targetababy5{
+    background-color: rgb(140, 160, 127);
+}
+
+#targetababy5:hover{
+    rotate: 15deg;
+    transition: 3s;
+    scale: 120%;
+    filter:brightness(1.5) drop-shadow(0 0 20px rgb(140, 160, 127))
+    }
+    
+#targetabonney{
+    background-color: rgb(226, 155, 214);
+}
+#targetabonney:hover{
+    rotate: -15deg;
+    transition: 3s;
+    scale: 120%;
+    filter:brightness(1.5) drop-shadow(0 0 20px rgb(226, 155, 214))
+    }
+
+.imatge{
+    width: 200px;
+    height: 220px;
+    
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: rgb(145, 141, 146);
+    background-position: center;
+    border-radius: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    border: 1px dotted black;
+}
+#boa{
+    background-image: url(imatges/boa.webp);
+}
+#perona{
+    background-image: url(imatges/perona.png);
+}
+
+#robin{
+    background-image: url(imatges/nicorobin.png);
+    
+}
+#nami{
+    background-image: url(imatges/nami.png);
+}
+#baby5{
+    background-image:url(imatges/baby5.webp);
+}
+
+#bonney{
+    background-image: url(imatges/bonney.png);
+}
+h3{
+    color: azure;
+}
+
+.text{
+    margin-top: -20px;
+    text-align: center;
+    color: black;
+  
+}
+
+ 
+@media screen{
+
+    min-width: 430px;
+    max-width: 932px;
+}
